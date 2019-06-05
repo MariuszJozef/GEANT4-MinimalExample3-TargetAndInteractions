@@ -5,5 +5,5 @@ Here is a trapezoidal target with a spherical body within inself which can serve
 
 ![Radiation interacts with the target](GEANT4-MinimalWorkingExample3-run3.gif)
 
-##N.B.
+## N.B.
 In GEANT4 not every instance of a class with "new" needs to be explicitly deleted by the user, this is handled by the GEANT4 kernel.
