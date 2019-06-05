@@ -3,5 +3,5 @@ Here is a trapezoidal target with a spherical body within inself which can serve
 
 ![Radiation interacts with the target](GEANT4-MinimalWorkingExample3-run3.gif)
 
-![Radiation interacts with the target](GEANT4-MinimalWorkingExample3-run3.gif)
+![Radiation interacts with the target](GEANT4-MinimalWorkingExample3-run1.gif)
 
