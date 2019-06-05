@@ -1,2 +1,2 @@
 # GEANT4-MinimalWorkingExample3WithEclipseIDE
-Here we add a target body within the cuboidal lab with which radiation can interact - simple interactions are enabled in the PhysicsList class. The target can be rotated at runtime (without recompiling) thanks to a DetectorMessenger class. Likewise the target material and position of particle gun can be adjusted, no hardcoded values.
+Here is a trapezoidal target with a spherical body within inself which can serve either as a cavity or as a denser obstruction to radiation, but the mateiral types of both bodies are hard-coded. The main electromagnetic interactions are enabled in the PhysicsList class.
