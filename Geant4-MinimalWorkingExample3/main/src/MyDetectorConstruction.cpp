@@ -109,7 +109,7 @@ G4VPhysicalVolume* MyDetectorConstruction::ConstructDetector()
 	                                    G4ThreeVector(0, 0, 0), // translation
 	                                    "Trapezoid",            // name
 	                                    logicalTrapezoid,       // logical volume
-	                                    physicalLab,            // mother  volume
+	                                    physicalLab,            // mother volume
 	                                    checkOverlaps,
 	                                    0);						// copy number
 
@@ -133,7 +133,7 @@ G4VPhysicalVolume* MyDetectorConstruction::ConstructDetector()
 	                  G4ThreeVector(0, 0, 0), 	// at (x,y,z)
 					  logicalSphere, 			// its logical volume
 	                  "Sphere",      			// its name
-	                  logicalTrapezoid,     	// its mother  volume
+	                  logicalTrapezoid,     	// mother volume
 	                  false,           			// no boolean operations
 	                  0,               			// copy number
 	                  checkOverlaps); 			// checking overlaps

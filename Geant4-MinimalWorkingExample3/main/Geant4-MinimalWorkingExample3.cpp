@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 	// Randomise the gun firing sequence, 
 	// otherwise each simulation run would be the same.
 	CLHEP::HepRandom::setTheEngine(new CLHEP::RanecuEngine());
-	G4long seed = time(NULL);
+	G4long seed = time(nullptr);
 	CLHEP::HepRandom::setTheSeed(seed);
 
 	MyDetectorConstruction *detectorConstruction = new MyDetectorConstruction;

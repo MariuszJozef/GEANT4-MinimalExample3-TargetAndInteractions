@@ -26,21 +26,21 @@ public:
 
 private:
 	G4ThreeVector halfLabSize;
-	G4Box *solidLab = 0;
-	G4Trd *solidTrapezoid = 0;
-	G4Sphere *solidSphere = 0;
+	G4Box *solidLab = nullptr;
+	G4Trd *solidTrapezoid = nullptr;
+	G4Sphere *solidSphere = nullptr;
 
-	G4LogicalVolume *logicalLab = NULL;
-	G4LogicalVolume *logicalTrapezoid = 0;
-	G4LogicalVolume *logicalSphere = 0;
+	G4LogicalVolume *logicalLab = nullptr;
+	G4LogicalVolume *logicalTrapezoid = nullptr;
+	G4LogicalVolume *logicalSphere = nullptr;
 
-	G4VPhysicalVolume *physicalLab = 0;
-	G4VPhysicalVolume *physicalTrapezoid = 0;
-	G4VPhysicalVolume *physicalSphere = 0;
+	G4VPhysicalVolume *physicalLab = nullptr;
+	G4VPhysicalVolume *physicalTrapezoid = nullptr;
+	G4VPhysicalVolume *physicalSphere = nullptr;
 
-	G4Material *labMaterial = 0;
-	G4Material *trapezoidMaterial = NULL;
-	G4Material *sphereMaterial = 0;
+	G4Material *labMaterial = nullptr;
+	G4Material *trapezoidMaterial = nullptr;
+	G4Material *sphereMaterial = nullptr;
 
 	void DefineMaterials();
 	G4VPhysicalVolume* ConstructDetector();
